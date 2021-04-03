@@ -39,6 +39,9 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
+/*css sendiri*/
+
+
 /*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;
@@ -62,10 +65,12 @@ a:hover {
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    text-align: center;
+    color: #001ba3;
+    -webkit-text-stroke: medium;
 }
-
 p {
 	font-family: Poppins-Regular;
 	font-size: 14px;

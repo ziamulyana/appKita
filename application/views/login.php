@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V1</title>
+	<title>login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -26,6 +26,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
+				<div class="judul"><h2 class="title">ELEKTRONIK SURAT TUGAS LAPORAN MONITORING TINDAK LANJUT (e-SATUPINTU)</h2></div>
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="<?php echo base_url('assets/images/logo.png');?>" alt="IMG">
 				</div>
