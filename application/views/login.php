@@ -26,15 +26,14 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<div class="judul"><h2 class="title">ELEKTRONIK SURAT TUGAS LAPORAN MONITORING TINDAK LANJUT (e-SATUPINTU)</h2></div>
+				<div class="judul"><h2 class="title">ELEKTRONIK SURAT TUGAS LAPORAN MONITORING TINDAK LANJUT</h2>
+				<h2 class="title">( e - SatuPintu )</h2>
+				</div>
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="<?php echo base_url('assets/images/logo.png');?>" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" action="<?= site_url('auth/cek_login');?>" method="post">
-					<span class="login100-form-title">
-						Login
-					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter Username">
 						<input class="input100" type="text" name="username" placeholder="username">
@@ -106,4 +105,14 @@
 	<script src="<?php echo base_url('assets/js/main.js');?>"></script>
 
 </body>
+<style>
+.login100-form {
+    width: 270px;
+    padding-top: 145px;
+}
+.login100-pic img {
+    max-width: 100%;
+    padding-top: 95px;
+}
+</style>
 </html>
